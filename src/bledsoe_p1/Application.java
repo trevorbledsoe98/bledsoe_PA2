@@ -1,9 +1,9 @@
 package bledsoe_p1;
 
-
+//import scanner
 import java.util.Scanner;
 public class Application {
-
+	//connect different classes
 	public static int encryptval, decryptval;
 	
 	public static int getEncryptval() {
@@ -20,12 +20,14 @@ public class Application {
 	public static void setDecryptval(int decryptval) {
 		Application.decryptval = decryptval;
 	}
+	
+	//main function
 	public static void main(String[] args) {
 		
 		
 		Scanner number = new Scanner(System.in);
 		
-	
+	//the encryptor 
 		System.out.println("Enter a Four Digit Number to be Encrypted");
 		encryptval = number.nextInt();
 		

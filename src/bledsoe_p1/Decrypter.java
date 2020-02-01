@@ -1,11 +1,11 @@
 package bledsoe_p1;
 
 public class Decrypter {
-	
+	//variables
 	public int decryptaa, decryptbb, decryptcc, decryptdd, aa, bb, cc, dd;
-	
+	//method
 	public void Decrypt() {
-		
+		//the decryptor math
 		aa = Application.getDecryptval() / 1000;
 		bb = Application.getDecryptval() / 100 % 10;
 		cc = Application.getDecryptval() / 10 % 10;
@@ -26,6 +26,8 @@ public class Decrypter {
 		decryptdd = dd - 7;
 		
 	}
+	
+	//set getters and setters
 	public int getDecryptaa() {
 		return decryptaa;
 	}

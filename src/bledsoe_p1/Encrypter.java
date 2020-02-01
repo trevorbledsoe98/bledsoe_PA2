@@ -1,12 +1,12 @@
 package bledsoe_p1;
 
-
+//method
 public class Encrypter {
-
+//variables
 	public int encrypta, encryptb, encryptc, encryptd, a, b, c, d;
 	public void Encrypt() {
 		
-		
+		//encryptor math
 		a = Application.getEncryptval() / 1000;
 		b = Application.getEncryptval() / 100 % 10;
 		c = Application.getEncryptval() / 10 % 10;
@@ -19,6 +19,7 @@ public class Encrypter {
 		
 		
 	}
+	//set getters and setters
 	public int getEncryptc() {
 		return (encryptc);
 	}
