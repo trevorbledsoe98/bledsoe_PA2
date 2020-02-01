@@ -34,6 +34,7 @@ public class Application {
 		
 		Encrypter.Encrypt();
 		
+		System.out.println("Your Encrypted Number is");
 		System.out.print(Encrypter.getEncryptc());
 		System.out.print(Encrypter.getEncryptd());
 		System.out.print(Encrypter.getEncrypta());
@@ -47,6 +48,7 @@ public class Application {
 		
 		Decrypter.Decrypt();
 		
+		System.out.println("Your Decrypted Number is");
 		System.out.print(Decrypter.getDecryptcc());
 		System.out.print(Decrypter.getDecryptdd());
 		System.out.print(Decrypter.getDecryptaa());
